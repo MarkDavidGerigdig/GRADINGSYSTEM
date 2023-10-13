@@ -1,0 +1,73 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial,sans-serif;
+        background-color: #f2f2f2;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #333;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .sidenav-logo{
+        text-align: center;
+    }
+
+    .sidenav-logo img {
+        width: 120px;
+        height: 80px;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover{
+        color: #f1f1f1;
+    }
+    
+   .sidenav .logo{
+    padding-top: 20px;
+   }
+
+   .sidenav .top-items{
+    padding-top: 30px;
+   }
+
+   .sidenav .bottom-items{
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+   }
+
+</style>
+
+<div class="sidenav">
+    <div class="sidenav-logo">
+        <img src="/assets/image/logo.png" alt="Logo">
+    </div>
+    <div class="top-items">
+        <a href="http://localhost:4200/manage/dashboard">Dashboard</a>
+        <a href="http://localhost:4200/manage/usermanagement">User-Management</a>
+    </div>
+    <div class="bottom-items">
+        <a href="#">Settings</a>
+        <a href="http://localhost:4200/login">Login</a>
+    </div>
+</div>
